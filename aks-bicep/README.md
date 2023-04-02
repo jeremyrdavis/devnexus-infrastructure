@@ -1,0 +1,1 @@
+# Bicep file for creating AKS cluster
