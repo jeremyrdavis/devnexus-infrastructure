@@ -1,0 +1,16 @@
+apiVersion: v1
+data:
+  greeting: Hello, ConfigMap!
+  JDBC_URL: jdbc:postgresql://localhost:5432/devnexus
+  JDBC_DRIVER: org.postgresql.Driver
+  JDBC_USER: devnexususer
+  JDBC_PASSWORD: devnexus20232isawesome
+  HIBERNATE_LOG_SQL: 'true'
+  QUARKUS_LOG_LEVEL: INFO
+kind: ConfigMap
+metadata:
+  creationTimestamp: "2023-04-02T15:49:16Z"
+  name: devnexus2023-config
+  namespace: devnexus23
+  resourceVersion: "1114498"
+  uid: c09f88a9-9477-412b-b436-3ef3a1100636
